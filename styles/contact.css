@@ -1,0 +1,139 @@
+@import "reset.css";
+@import "grid.css";
+
+/* @ import "resppnsive.css" */
+:root {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+
+
+
+    --e-global-color-astglobalcolor0: #8bc34a;
+    --e-global-color-astglobalcolor1: #6a9739;
+    --e-global-color-astglobalcolor2: #111111;
+    --e-global-color-astglobalcolor3: #333333;
+    --e-global-color-astglobalcolor4: #f8f6f3;
+    --e-global-color-astglobalcolor5: #ffffff;
+    --e-global-color-astglobalcolor6: #001524;
+    --e-global-color-astglobalcolor7: #424242;
+    --e-global-color-astglobalcolor8: #000000;
+}
+
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header_page__title {
+    letter-spacing: .3rem;
+    word-spacing: .5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.header_page__title__wrapper{
+    margin-bottom: 5rem;
+}
+
+.main{
+    margin: 2rem 0;
+}
+
+.contact{
+margin-top: -8rem;
+margin-bottom: 5rem;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.contact__photo{
+/* margin: 0 auto; */
+text-align: center;
+}
+.contact__photo__img{
+position: absolute;
+margin:0 auto;
+}
+.contact__wrpper{
+    background-color: var(--e-global-color-astglobalcolor4);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6rem 0 4rem 0;
+    box-shadow: 1rem 2rem 3rem var(--e-global-color-astglobalcolor3)
+}
+.contact__ways{
+border: 1px solid var(--e-global-color-astglobalcolor7);
+/* padding: 3rem ; */
+width: 15rem;
+height: 8rem; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* padding: 4rem; */
+}
+.first__way{
+
+}
+.second__way{
+
+}/* ++++++++++++++
+
+ section questions
+
++++++++++++++++++ */
+
+
+.questions{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 6rem 0;
+}
+.freqQuestion{
+
+}
+.freqQuestion__title{
+font-size: 3rem;
+font-weight: bold;
+}
+.questions__wrapper{
+display: flex;
+padding: 2rem 4rem;
+}
+.questions__wrapper__left,
+.questions__wrapper__right{
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+
+}
+.question{
+width: 30rem;
+}
+summary{
+    font-weight: bold;
+}

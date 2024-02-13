@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1200px) {
+    .colums__wrapper {
+        padding: 6rem 1rem;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .left__colum {
+        padding: 1rem;
+    }
+
+    .right__content {
+        width: 30rem;
+    }
+
+    .cover__img {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 3.1rem;
+    }
+
+    .nav__shopping__Price {
+        font-size: .8rem;
+    }
+
+    .nav__wrapper__left {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .nav__wrapper__left,.nav__wrapper__right{
+        display: none;
+    }
+    .right__content {
+        width: 24rem;
+    }
+    .title {
+        font-size: 2.2rem;
+    }
+    .description {
+        font-size: 1.2rem;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav__bars{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+    .nav__bar__span{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+    .right__content {
+        width: 15rem;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .description {
+        font-size: .9rem;
+    }
+    .top__caption{
+        font-size: .8rem;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {}
+
+@media only screen and (max-width: 350px) {}

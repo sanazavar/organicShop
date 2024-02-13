@@ -1,0 +1,68 @@
+:root {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+
+
+
+    --e-global-color-astglobalcolor0: #8bc34a;
+    --e-global-color-astglobalcolor1: #6a9739;
+    --e-global-color-astglobalcolor2: #111111;
+    --e-global-color-astglobalcolor3: #333333;
+    --e-global-color-astglobalcolor4: #f8f6f3;
+    --e-global-color-astglobalcolor5: #ffffff;
+    --e-global-color-astglobalcolor6: #001524;
+    --e-global-color-astglobalcolor7: #424242;
+    --e-global-color-astglobalcolor8: #000000;
+}
+
+
+
+main{
+    margin: 5rem 0;
+}
+
+.forgget{
+display: flex;
+flex-direction: column;
+}
+.forgget__title{
+font-size: 4rem;
+font-weight: bold;
+margin-bottom: 1rem;
+}
+.forgget__caption{
+    margin-bottom: 1rem;
+
+}
+.pasuserSpan{
+display: block;
+margin-bottom: .3rem;
+}
+.forgget__input{
+width: 20rem;
+height: 1.8rem;
+margin-bottom: 1rem;
+border-radius: .3rem;
+padding: .5rem 1rem;
+
+}
+#reset__pass{
+width: 9rem;
+height: 1.8rem;
+background-color: var(--e-global-color-astglobalcolor1);
+color: var(--e-global-color-astglobalcolor4);
+font-size: 1.2rem;
+margin-bottom: 1rem;
+border: none;
+border-radius: .3rem;
+}
